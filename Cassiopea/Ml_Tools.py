@@ -7,6 +7,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
+# Class for machine learning
 class Ml_Tools():
     def __init__(self, columns : pd.DataFrame, target : pd.DataFrame):
         self.columns = columns
